@@ -27,7 +27,7 @@ This is a template for a Racket project, and includes:
 
 You still need to set some of these things up, but don't sweat, the whole process is well-documented and it should take you less than an hour. By the way, in case you were wondering, some of the badges above won't render correctly until you finish setting things up.
 
-In addition to the options here there are many other features you might need in your project -- for instance, running tests for individual modules instead of everything, continuous performance benchmarking via CI, and lots more that you might need depending on the nature of your project -- all of these are possible, but they are not included in the current template. If you need something that isn't here, please submit an issue or PR.
+In addition to the options here there are many other features you might need in your project -- for instance, running tests for individual modules instead of everything, continuous performance benchmarking via CI, and lots more that you might need depending on the nature of your project -- the template could be extended to support these, but they are not included out of the box. If you need something that isn't here, please submit an issue or PR.
 
 Setup
 -----
@@ -36,6 +36,8 @@ To learn more about and customize how the various features of this template work
 
 * `Migrating Your Racket Project from Travis to GitHub Actions <https://countvajhula.com/2021/05/22/migrating-your-racket-project-from-travis-to-github-actions/>`_ -- for information about setting up automated testing, GitHub Actions, Coverage reporting (**NOTE** you will need to follow the instructions in this post to set up the coverage reporting included in this template)
 * `How to Organize Your Racket Library <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/>`_ -- mainly just `this section about the top level of your repo being hopeless <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/#ib-toc-anchor-10>`__, since this informs the structure of the current repo.
+
+Finally, if there are any features in the template that you aren't planning to use (e.g. profiling) -- *remove them*. The template includes features that reflect best practices applicable to many projects, but if they are not applicable to yours, they would just be cruft in your repo that will cause confusion to you and to potential contributors if left there.
 
 Once you're done with setup, remove this section from the README. General signposting about your project follows.
 
