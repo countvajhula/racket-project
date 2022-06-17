@@ -11,16 +11,29 @@
     :target: https://github.com/<username>/<project>/wiki
 
 <project>
-=========
-This is a template for a Racket project and includes:
+===================
+The first thing you should do (i.e. right now :)) is open a terminal at the directory containing this file, and run ``render-template.sh``. This will resolve all variables in this template to the values they will need to contain for your project. Then, continue reading here:
+
+This is a template for a Racket project, and includes:
 
 * CI config using GitHub Actions
 * Running automated tests
 * Coverage reporting using `Coveralls <https://coveralls.io/>`_
 * A Makefile for managing your project workflows using simple command line aliases
 * A pull request template containing placeholder text that contributors will see when making pull requests against your repo
+* Contributor docs that document some of the above workflows
+* Basic performance profiling for your project
 
-There are many other options you might need -- for instance, running tests for individual modules instead of everything, continous performance benchmarking via CI, and lots more that you might need depending on the nature of your project -- all of these are possible, but they are not included in the current template. If you need something that isn't here, please submit an issue or PR.
+You still need to set some of these things up, but don't sweat, the whole process is well-documented and it should take you less than an hour. By the way, in case you were wondering, some of the badges above won't render correctly until you finish setting things up.
+
+In addition to the options here there are many other features you might need in your project -- for instance, running tests for individual modules instead of everything, continuous performance benchmarking via CI, and lots more that you might need depending on the nature of your project -- all of these are possible, but they are not included in the current template. If you need something that isn't here, please submit an issue or PR.
+
+**SETUP**
+
+To learn more about and customize how the various features of this template work, read:
+
+* `Migrating Your Racket Project from Travis to GitHub Actions <https://countvajhula.com/2021/05/22/migrating-your-racket-project-from-travis-to-github-actions/>`_ -- for information about setting up automated testing, GitHub Actions, Coverage reporting (**NOTE** you will need to follow the instructions in this post to set up the coverage reporting included in this template)
+* `How to Organize Your Racket Library <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/>`_ -- mainly just `this section about the top level of your repo being hopeless <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/#ib-toc-anchor-10>`__, since this informs the structure of the current repo.
 
 Replace the above with a description of your project. General signposting about your project follows.
 
