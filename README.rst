@@ -37,10 +37,12 @@ To learn more about and customize how the various features of this template work
 * `Migrating Your Racket Project from Travis to GitHub Actions <https://countvajhula.com/2021/05/22/migrating-your-racket-project-from-travis-to-github-actions/>`_ -- for information about setting up automated testing, GitHub Actions, Coverage reporting (**NOTE** you will need to follow the instructions in this post to set up the coverage reporting included in this template)
 * `How to Organize Your Racket Library <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/>`_ -- mainly just `this section about the top level of your repo being hopeless <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/#ib-toc-anchor-10>`__, since this informs the structure of the current repo.
 
-Replace the above with a description of your project. General signposting about your project follows.
+Once you're done with setup, remove this section from the README. General signposting about your project follows.
 
 <project>
 ===================
+
+Add a description of your project here.
 
 Install it from the `Racket Package Index <https://pkgs.racket-lang.org/package/<project>>`_.
 Read `the documentation <https://docs.racket-lang.org/<project>/index.html>`_ to learn more. See `the Wiki <https://github.com/<username>/<project>/wiki>`_ for community resources and events.
