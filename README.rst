@@ -10,8 +10,9 @@
 .. image:: https://img.shields.io/badge/wiki-<project>-yellowgreen
     :target: https://github.com/<username>/<project>/wiki
 
-<project>
+About This Template
 ===================
+
 The first thing you should do (i.e. right now :)) is open a terminal at the directory containing this file, and run ``render-template.sh``. This will resolve all variables in this template to the values they will need to contain for your project. Then, continue reading here:
 
 This is a template for a Racket project, and includes:
@@ -28,7 +29,8 @@ You still need to set some of these things up, but don't sweat, the whole proces
 
 In addition to the options here there are many other features you might need in your project -- for instance, running tests for individual modules instead of everything, continuous performance benchmarking via CI, and lots more that you might need depending on the nature of your project -- all of these are possible, but they are not included in the current template. If you need something that isn't here, please submit an issue or PR.
 
-**SETUP**
+Setup
+-----
 
 To learn more about and customize how the various features of this template work, read:
 
@@ -36,6 +38,9 @@ To learn more about and customize how the various features of this template work
 * `How to Organize Your Racket Library <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/>`_ -- mainly just `this section about the top level of your repo being hopeless <https://countvajhula.com/2022/02/22/how-to-organize-your-racket-library/#ib-toc-anchor-10>`__, since this informs the structure of the current repo.
 
 Replace the above with a description of your project. General signposting about your project follows.
+
+<project>
+===================
 
 Install it from the `Racket Package Index <https://pkgs.racket-lang.org/package/<project>>`_.
 Read `the documentation <https://docs.racket-lang.org/<project>/index.html>`_ to learn more. See `the Wiki <https://github.com/<username>/<project>/wiki>`_ for community resources and events.
