@@ -16,6 +16,7 @@ sed -i '' s/"<project>"/$name/g profile/$name.rkt
 sed -i '' s/"<project>"/$name/g $name/info.rkt
 sed -i '' s/"<project>"/$name/g $name/tests/$name.rkt
 sed -i '' s/"<project>"/$name/g $name/scribblings/$name.scrbl
+sed -i '' s/"<project>"/$name/g .github/workflows/docs.yml
 
 sed -i '' s/"<username>"/$username/g CONTRIBUTING.rst
 sed -i '' s/"<username>"/$username/g Makefile
@@ -24,3 +25,4 @@ sed -i '' s/"<username>"/$username/g profile/$name.rkt
 sed -i '' s/"<username>"/$username/g $name/info.rkt
 sed -i '' s/"<username>"/$username/g $name/tests/$name.rkt
 sed -i '' s/"<username>"/$username/g $name/scribblings/$name.scrbl
+sed -i '' s/"<username>"/$username/g .github/workflows/docs.yml
